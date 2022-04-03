@@ -11,4 +11,4 @@ Welcome to LavaLink servers which are hosted by Karta Dharta
 
 ## Info
 
-These lavalink hosts are grouped into two different categories. [With SSL](ssl.md), and [without SSL](non-ssl.md). SSL one needed ”secure” to be set to true at client side, whilst the one without SSL should just works.
+These lavalink hosts are grouped into two different categories. [With SSL](ssl.md), and [without SSL](non-ssl.md). SSL one needed ”secure” to be set to true at client side.
