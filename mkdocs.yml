@@ -1,0 +1,57 @@
+site_name: KD Lavalink
+site_author: ErrorDoc404
+site_url: https://kdlavalink.cf
+repo_name: 'kdlavalink.cf'
+repo_url: 'https://github.com/ErrorDoc404/kdlavalink'
+
+theme:
+  name: material
+  include_search_page: false
+  search_index_only: true
+  palette:
+    - media: "light"
+      scheme: default
+      primary: 'lime'
+      accent: 'teal'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "dark"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - tabs
+    - instantsite
+    - navigation.tracking
+    - navigation.expand
+    - content.code.annotate
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+markdown_extensions:
+  - meta
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - attr_list
+  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+
+nav:
+    - Home: index.md
+    - Lavalink SSL: ssl.md
+    - Lavalink without SSL: non-ssl.md
+
+extra:
+  generator: false
+
+copyright: 'Copyright &copy; 2022 kartadharta.cf'
