@@ -1,4 +1,4 @@
-## SSL LavaLink:
+## without SSL LavaLink:
 ```javascript
 {
   host: 'kdlavalink.cf',
