@@ -8,12 +8,3 @@
   secure: false
 },
 ```
-
-```javascript
-{
-  host: '4mcspigot',
-  port: 3000,
-  password: 'LavaOnMoon',
-  secure: false
-},
-```

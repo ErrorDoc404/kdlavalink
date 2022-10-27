@@ -99,7 +99,6 @@ nav:
     - Home: index.md
     - Lavalink SSL: ssl.md
     - Lavalink without SSL: non-ssl.md
-    - FAQs: faq.md
 
 extra:
   analytics:
